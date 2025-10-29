@@ -37,7 +37,7 @@ Kullanıcı arama kutusuna yazı yazmaya başladığı anda, **marka** veya **ü
 Seçilen ürünün resmi, tam fiyatı, markası ve kategorisi büyük bir ekranda gösterilir.  
 Bu ekran, **sepete ekleme işlemi** için bir merkez görevi görür.
 
-<img src="UniShop/assets/adet_seçimi-portrait.png" alt="Adet Seçimi" width="400" height="700"/>
+<img src="UniShop/assets/ürün_detay-portrait.png" alt="Adet Seçimi" width="400" height="700"/>
 
 ---
 
@@ -52,17 +52,6 @@ Toplam fiyat, seçilen adete göre anlık güncellenir.
 
 ---
 
-### 🛍️ 5. Sepete Ekleme
-
-**Kategori:** Sepet  
-
-Kullanıcı, istediği adeti seçtikten sonra **"Sepete Ekle"** butonuna basarak ürünü **API'ye POST işlemi** ile sepete kaydeder.  
-İşlem başarılı olduktan sonra genellikle ana sayfaya geri dönülür.
-
-<img src="UniShop/assets/adet_seçimi-portrait.png" alt="Adet Seçimi" width="400" height="700"/>
-
----
-
 ### 🧾 6. Sepet Görüntüleme
 
 **Kategori:** Sepet  
@@ -70,7 +59,7 @@ Kullanıcı, istediği adeti seçtikten sonra **"Sepete Ekle"** butonuna basarak
 Ana sayfadaki sepet ikonuna tıklandığında, kullanıcının sepetteki tüm ürünleri listelenir.  
 Bu ekranda ürünlerin adedi, fiyatları ve tüm sepetin toplam tutarı net bir şekilde gösterilir.
 
-<img src="UniShop/assets/adet_seçimi-portrait.png" alt="Adet Seçimi" width="400" height="700"/>
+<img src="UniShop/assets/sepet-portrait.png" alt="Adet Seçimi" width="400" height="700"/>
 
 ---
 
@@ -81,7 +70,7 @@ Bu ekranda ürünlerin adedi, fiyatları ve tüm sepetin toplam tutarı net bir 
 Kullanıcı, sepetteki herhangi bir ürünün yanındaki silme butonuna tıklayarak (API'ye `sepetId` gönderimi ile) ürünü sepetinden kalıcı olarak kaldırabilir.  
 Liste ve toplam fiyat anlık olarak güncellenir.
 
-<img src="UniShop/assets/adet_seçimi-portrait.png" alt="Adet Seçimi" width="400" height="700"/>
+<img src="UniShop/assets/sepet_urun_silme-portrait.png" alt="Adet Seçimi" width="400" height="700"/>
 
 ---
 
@@ -128,13 +117,13 @@ Uygulama, **temiz kod prensiplerini** ve **modülerliği** sağlamak için Katma
 ## 📸 Uygulama Ekran Görüntüleri (Özet)
 
 1. **Ana Sayfa (Home Screen)**  
-   <img src="UniShop/assets/adet_seçimi-portrait.png" alt="Adet Seçimi" width="400" height="700"/>
+   <img src="UniShop/assets/ana_sayfa-portrait.png" alt="Adet Seçimi" width="400" height="700"/>
 
 2. **Ürün Detay Sayfası (Detail Screen)**  
-   <img src="UniShop/assets/adet_seçimi-portrait.png" alt="Adet Seçimi" width="400" height="700"/>
+   <img src="UniShop/assets/ürün_detay-portrait.png" alt="Adet Seçimi" width="400" height="700"/>
 
 3. **Sepet Sayfası (Cart Screen)**  
-   <img src="UniShop/assets/adet_seçimi-portrait.png" alt="Adet Seçimi" width="400" height="700"/>
+   <img src="UniShop/assets/sepet-portrait.png" alt="Adet Seçimi" width="400" height="700"/>
 
 ---
 
