@@ -7,8 +7,6 @@ Bu proje, bir Android Bootcamp'in bitirme projesi olarak **Kotlin** programlama 
 
 ## ✨ Uygulama Özellikleri (Detaylı Görsel Sunum)
 
-Uygulama, **Kasım ADALAN**'ın sağladığı harici bir Webservis (API) üzerinden verileri çekmekte ve güncel **Composable** mimarileri ile çalışmaktadır.
-
 ---
 
 ### 🏠 1. Ürün Listeleme (Home Screen)
@@ -18,7 +16,8 @@ Uygulama, **Kasım ADALAN**'ın sağladığı harici bir Webservis (API) üzerin
 Ana sayfada tüm ürünler, kategorisine bakılmaksızın listelenir.  
 Kullanıcılar ürün kartlarına tıklayarak detay sayfasına geçebilir.
 
-*(Görsel buraya eklenecek)*
+![Uploading ana_sayfa-portrait.png…]()
+
 
 ---
 
