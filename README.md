@@ -16,7 +16,8 @@ Bu proje, bir Android Bootcamp'in bitirme projesi olarak **Kotlin** programlama 
 Ana sayfada tüm ürünler, kategorisine bakılmaksızın listelenir.  
 Kullanıcılar ürün kartlarına tıklayarak detay sayfasına geçebilir.
 
-![Uploading ana_sayfa-portrait.png…]()
+![Adet Seçimi](assets/ana_sayfa-portrait)
+
 
 
 ---
