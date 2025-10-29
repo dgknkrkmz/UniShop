@@ -9,7 +9,7 @@ Bu proje, bir Android Bootcamp'in bitirme projesi olarak **Kotlin** programlama 
 
 ---
 
-### 🏠 1. Ürün Listeleme (Home Screen)
+### 🏠 1. Ürün Listeleme 
 
 **Kategori:** Ürün  
 
@@ -127,19 +127,11 @@ Uygulama, **temiz kod prensiplerini** ve **modülerliği** sağlamak için Katma
 
 ---
 
-## 🚀 Kurulum, Çalıştırma, Teşekkür ve İletişim
+## 🚀 Kurulum, Teşekkür ve İletişim
 
 **Projeyi Klonlayın:**  
 git clone [GitHub Proje Linkiniz]
 
-**Android Studio'yu Açın:**  
-Projeyi Android Studio'da açın.
-
-**Hilt Kurulumu:**  
-Gerekli tüm Hilt annotation'larının (örneğin `@HiltAndroidApp` ve `@AndroidEntryPoint`) doğru kullanıldığından emin olun.
-
-**Derleme:**  
-Gradle senkronizasyonunun tamamlanmasını bekleyin ve uygulamayı bir emülatör veya fiziksel cihazda çalıştırın.
 
 **🙏 Teşekkür ve 📬 İletişim:**  
 
