@@ -26,7 +26,7 @@ Kullanıcılar ürün kartlarına tıklayarak detay sayfasına geçebilir.
 
 Kullanıcı arama kutusuna yazı yazmaya başladığı anda, **marka** veya **ürün adına** göre filtreleme anlık olarak yapılır ve sonuçlar kullanıcıya dinamik olarak sunulur.
 
-<img src="UniShop/assets/adet_seçimi-portrait.png" alt="Adet Seçimi" width="400" height="700"/>
+<img src="UniShop/assets/canlı_arama-portrait.png" alt="Adet Seçimi" width="400" height="700"/>
 
 ---
 
