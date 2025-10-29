@@ -142,9 +142,9 @@ Uygulama, **temiz kod prensiplerini** ve **modülerliği** sağlamak için Katma
 
 ## 🚀 Kurulum, Çalıştırma, Teşekkür ve İletişim
 
-**Projeyi Klonlayın:**
-```bash
+**Projeyi Klonlayın:**  
 git clone [GitHub Proje Linkiniz]
+
 **Android Studio'yu Açın:**  
 Projeyi Android Studio'da açın.
 
