@@ -130,8 +130,11 @@ Uygulama, **temiz kod prensiplerini** ve **modülerliği** sağlamak için Katma
 ## 🚀 Kurulum, Teşekkür ve İletişim
 
 **Projeyi Klonlayın:**  
-git clone https://github.com/dgknkrkmz/UniShop
-
+```bash
+git clone https://github.com/kullanici/UniShop.git
+cd UniShop
+./gradlew build
+```
 
 **🙏 Teşekkür ve 📬 İletişim:**  
 
