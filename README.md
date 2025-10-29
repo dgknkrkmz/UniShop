@@ -16,7 +16,7 @@ Bu proje, bir Android Bootcamp'in bitirme projesi olarak **Kotlin** programlama 
 Ana sayfada tüm ürünler, kategorisine bakılmaksızın listelenir.  
 Kullanıcılar ürün kartlarına tıklayarak detay sayfasına geçebilir.
 
-<img src="UniShop/assets/ana_sayfa-portrait" alt="Adet Seçimi.png" width="400" height="700"/>
+<img src="UniShop/assets/ana_sayfa-portrait.png" alt="Adet Seçimi.png" width="400" height="700"/>
 
 ---
 
