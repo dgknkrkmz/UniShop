@@ -6,7 +6,7 @@ Bu proje, bir Android Bootcamp'in bitirme projesi olarak Kotlin programlama dili
 
 Uygulama, Kasım ADALAN'ın sağladığı harici bir Webservis (API) üzerinden verileri çekmekte ve güncel Composable mimarileri ile çalışmaktadır.
 
-Ürün Listeleme (Home Screen)
+1. Ürün Listeleme (Home Screen)
 
 Kategori: Ürün
 
@@ -14,42 +14,48 @@ Ana sayfada tüm ürünler, kategorisine bakılmaksızın listelenir. Kullanıc�
 
 !
 
-Canlı Arama
+2. Canlı Arama
+
 Kategori: Arama
 
 Kullanıcı arama kutusuna yazı yazmaya başladığı anda, marka veya ürün adına göre filtreleme anlık olarak yapılır ve sonuçlar kullanıcıya dinamik olarak sunulur.
 
 !
 
-Ürün Detay Sayfası
+3. Ürün Detay Sayfası
+
 Kategori: Detay
 
 Seçilen ürünün resmi, tam fiyatı, markası ve kategorisi büyük bir ekranda gösterilir. Bu ekran, sepete ekleme işlemi için bir merkez görevi görür.
 
 !
 
-Adet Seçimi
+4. Adet Seçimi
+
 Kategori: Sepet
 
 Ürün detay sayfasında, kullanıcı sepete eklemeden önce istediği sipariş adedini pratik bir şekilde artırıp azaltabilir. Toplam fiyat, seçilen adete göre anlık güncellenir.
 
 !
 
-Sepete Ekleme
+5. Sepete Ekleme
+
 Kategori: Sepet
 
 Kullanıcı, istediği adeti seçtikten sonra "Sepete Ekle" butonuna basarak ürünü API'ye POST işlemi ile sepete kaydeder. İşlem başarılı olduktan sonra genellikle ana sayfaya geri dönülür.
 
 !
 
-Sepet Görüntüleme
+6. Sepet Görüntüleme
+
 Kategori: Sepet
 
 Ana sayfadaki sepet ikonuna tıklandığında, kullanıcının sepetteki tüm ürünleri listelenir. Bu ekranda ürünlerin adedi, fiyatları ve tüm sepetin toplam tutarı net bir şekilde gösterilir.
 
 !
 
-Sepetten Silme
+7. Sepetten Silme
+
 Kategori: Sepet
 
 Kullanıcı, sepetteki herhangi bir ürünün yanındaki silme butonuna tıklayarak (API'ye sepetId gönderimi ile) ürünü sepetinden kalıcı olarak kaldırabilir. Liste ve toplam fiyat anlık olarak güncellenir.
@@ -81,14 +87,17 @@ Navigasyon: Jetpack Compose Navigation
 Uygulama, temiz kod prensiplerini ve modülerliği sağlamak için Katmanlı Mimari (Layered Architecture) kullanılarak tasarlanmıştır.
 
 Data Katmanı
+
 Entity: Product.kt, CartProduct.kt (API'den gelen JSON verilerini karşılayan veri modelleri)
 
 DataSource: ProductService.kt (Retrofit arayüzü ile API uç noktalarını tanımlar)
 
 Domain (Repository) Katmanı
+
 Repository: ProductRepository.kt (Veri kaynakları (API) ile ViewModel'ler arasında köprü görevi görür, iş mantığını soyutlar.)
 
 Presentation (UI/Logic) Katmanı
+
 ViewModel: HomeViewModel.kt, CartViewModel.kt (Veriyi hazırlar ve iş mantığını yönetir.)
 
 UI: AppNavigation.kt, HomeScreen.kt, DetailScreen.kt, CartScreen.kt (Kullanıcı arayüzü bileşenleri)
@@ -97,17 +106,24 @@ UI: AppNavigation.kt, HomeScreen.kt, DetailScreen.kt, CartScreen.kt (Kullanıcı
 
 Projenizi görselleştirmek ve hızlı bir genel bakış sağlamak için buraya ana ekran görüntülerini ekleyin. Detaylı özellik görselleri yukarıdaki bölümde yer almaktadır.
 
-Ana Sayfa (Home Screen)
+1. Ana Sayfa (Home Screen)
 
-Ürün Detay Sayfası (Detail Screen)
+!
 
-Sepet Sayfası (Cart Screen)
+2. Ürün Detay Sayfası (Detail Screen)
+
+!
+
+3. Sepet Sayfası (Cart Screen)
+
+!
 
 🚀 Kurulum ve Çalıştırma
 
 Projeyi Klonlayın:
 
 git clone [GitHub Proje Linkiniz]
+
 
 Android Studio'yu Açın: Projeyi Android Studio'da açın.
 
@@ -117,7 +133,7 @@ Derleme: Gradle senkronizasyonunun tamamlanmasını bekleyin ve uygulamayı bir 
 
 🙏 Teşekkür
 
-Bu projenin geliştirilme sürecindeki rehberliği, engin bilgisi ve motivasyonu için değerli hocama (adını buraya ekleyin) en içten teşekkürlerimi sunarım. Onun desteği olmadan bu projeyi başarıyla tamamlamak mümkün olmazdı.
+Bu projenin geliştirilme sürecindeki rehberliği, engin bilgisi ve motivasyonu için değerli [Hocanızın Adı Buraya] en içten teşekkürlerimi sunarım. Onun desteği olmadan bu projeyi başarıyla tamamlamak mümkün olmazdı.
 
 📬 Bana Ulaşın
 
