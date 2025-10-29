@@ -1,78 +1,61 @@
 # 🛒 UniShop | Android E-Ticaret Uygulaması (Bootcamp Bitirme Projesi)
 
-![Kotlin Badge](https://img.shields.io/badge/Kotlin-0095D5?style=flat-square) ![Compose Badge](https://img.shields.io/badge/Jetpack%20Compose-20232A?style=flat-square) ![MVVM Badge](https://img.shields.io/badge/MVVM-Architecture-blue?style=flat-square)
-
-Bu proje, bir Android Bootcamp'in bitirme projesi olarak **Kotlin** ve modern Android araçlarıyla geliştirilmiş tam teşekküllü bir mobil e-ticaret uygulamasıdır.  
-(Uygulama: Ürün listeleme, detay, canlı arama, sepet yönetimi vb.)
+Bu proje, bir Android Bootcamp'in bitirme projesi olarak **Kotlin** programlama dili ve modern Android geliştirme araçları kullanılarak geliştirilmiş tam teşekküllü bir **mobil E-Ticaret uygulamasıdır**.  
+Ürün listeleme, detay görüntüleme, arama ve sepet yönetimi gibi temel E-Ticaret fonksiyonlarını barındırır.
 
 ---
 
-## ✨ Öne Çıkan Özellikler
+## ✨ Uygulama Özellikleri (Detaylı Görsel Sunum)
 
-### 🏠 Ürün Listeleme (Home Screen)
-Tüm ürünler ana sayfada listelenir. Kullanıcı ürün kartına tıklayarak detay sayfasına gider.
-
-### 🔍 Canlı Arama
-Arama kutusuna yazdığın anda marka veya ürün adına göre **anlık filtreleme** yapılır.
-
-### 📄 Ürün Detay Sayfası
-Seçilen ürünün resmi, tam fiyatı, markası ve kategorisi büyük bir ekranda gösterilir. Sepete ekleme burada gerçekleşir.
-
-### ➕ Adet Seçimi
-Detay ekranında adet artır/azalt fonksiyonu; toplam fiyat anlık güncellenir.
-
-### 🛍️ Sepete Ekleme
-Seçili adetle birlikte `POST` ile API’ye kaydeder; işlem sonrası kullanıcı yönlendirmesi yapılır.
-
-### 🧾 Sepet Görüntüleme
-Sepet ikonu ile sepetteki ürünler listelenir; toplam tutar ve adet gösterilir.
-
-### ❌ Sepetten Silme
-Her ürünü `sepetId` göndererek API üzerinden silebilirsin; liste ve toplam anında güncellenir.
+Uygulama, **Kasım ADALAN**'ın sağladığı harici bir Webservis (API) üzerinden verileri çekmekte ve güncel **Composable** mimarileri ile çalışmaktadır.
 
 ---
 
-## 🛠️ Kullanılan Teknolojiler
+### 🏠 1. Ürün Listeleme (Home Screen)
 
-- **Programlama Dili:** Kotlin  
-- **Arayüz:** Jetpack Compose  
-- **Mimarî:** MVVM  
-- **DI:** Hilt (Dagger Hilt)  
-- **Ağ:** Retrofit + GSON  
-- **Asenkron:** Coroutines & Flow  
-- **Resim Yükleme:** Coil  
-- **Navigasyon:** Jetpack Compose Navigation
+**Kategori:** Ürün  
+
+Ana sayfada tüm ürünler, kategorisine bakılmaksızın listelenir.  
+Kullanıcılar ürün kartlarına tıklayarak detay sayfasına geçebilir.
+
+*(Görsel buraya eklenecek)*
 
 ---
 
-## ⚙️ Proje Mimarisi
+### 🔍 2. Canlı Arama
 
-### Data Katmanı
-- `Product.kt`, `CartProduct.kt` (Entity)  
-- `ProductService.kt` (Retrofit arayüzü)
+**Kategori:** Arama  
 
-### Domain / Repository
-- `ProductRepository.kt`
+Kullanıcı arama kutusuna yazı yazmaya başladığı anda, **marka** veya **ürün adına** göre filtreleme anlık olarak yapılır ve sonuçlar kullanıcıya dinamik olarak sunulur.
 
-### Presentation (UI / Logic)
-- `HomeViewModel.kt`, `CartViewModel.kt`  
-- `AppNavigation.kt`, `HomeScreen.kt`, `DetailScreen.kt`, `CartScreen.kt`
+*(Görsel buraya eklenecek)*
 
 ---
 
-## 📸 Ekran Görüntüleri
+### 📄 3. Ürün Detay Sayfası
 
-> Yer tutucu — kendi ekran görüntülerini `assets/screens/` altına koyup aşağıdaki gibi çağırabilirsin.
+**Kategori:** Detay  
 
-![Home Screen](./assets/screens/home.png)  
-![Detail Screen](./assets/screens/detail.png)  
-![Cart Screen](./assets/screens/cart.png)
+Seçilen ürünün resmi, tam fiyatı, markası ve kategorisi büyük bir ekranda gösterilir.  
+Bu ekran, **sepete ekleme işlemi** için bir merkez görevi görür.
+
+*(Görsel buraya eklenecek)*
 
 ---
 
-## 🚀 Kurulum ve Çalıştırma
+### ➕ 4. Adet Seçimi
 
-```bash
-git clone https://github.com/KULLANICI/REPO.git
-# Android Studio ile projeyi aç
-# Gradle sync -> Run on emulator / device
+**Kategori:** Sepet  
+
+Ürün detay sayfasında, kullanıcı sepete eklemeden önce istediği sipariş adedini pratik bir şekilde artırıp azaltabilir.  
+Toplam fiyat, seçilen adete göre anlık güncellenir.
+
+*(Görsel buraya eklenecek)*
+
+---
+
+### 🛍️ 5. Sepete Ekleme
+
+**Kategori:** Sepet  
+
+Kullanıcı, istediği adeti seçtikten sonra **"Sepete Ekle"** bu
