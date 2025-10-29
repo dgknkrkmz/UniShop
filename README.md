@@ -11,8 +11,6 @@ Bu proje, **Kotlin** programlama dili ve modern Android geliştirme araçları k
 
 ### 🏠 1. Ürün Listeleme 
 
-**Kategori:** Ürün  
-
 Ana sayfada tüm ürünler, kategorisine bakılmaksızın listelenir.  
 Kullanıcılar ürün kartlarına tıklayarak detay sayfasına geçebilir.
 
@@ -22,8 +20,6 @@ Kullanıcılar ürün kartlarına tıklayarak detay sayfasına geçebilir.
 
 ### 🔍 2. Canlı Arama
 
-**Kategori:** Arama  
-
 Kullanıcı arama kutusuna yazı yazmaya başladığı anda, **marka** veya **ürün adına** göre filtreleme anlık olarak yapılır ve sonuçlar kullanıcıya dinamik olarak sunulur.
 
 <img src="UniShop/assets/canlı_arama-portrait.png" alt="Adet Seçimi" width="400" height="700"/>
@@ -31,8 +27,6 @@ Kullanıcı arama kutusuna yazı yazmaya başladığı anda, **marka** veya **ü
 ---
 
 ### 📄 3. Ürün Detay Sayfası
-
-**Kategori:** Detay  
 
 Seçilen ürünün resmi, tam fiyatı, markası ve kategorisi büyük bir ekranda gösterilir.  
 Bu ekran, **sepete ekleme işlemi** için bir merkez görevi görür.
@@ -43,8 +37,6 @@ Bu ekran, **sepete ekleme işlemi** için bir merkez görevi görür.
 
 ### ➕ 4. Adet Seçimi
 
-**Kategori:** Sepet  
-
 Ürün detay sayfasında, kullanıcı sepete eklemeden önce istediği sipariş adedini pratik bir şekilde artırıp azaltabilir.  
 Toplam fiyat, seçilen adete göre anlık güncellenir.
 
@@ -54,8 +46,6 @@ Toplam fiyat, seçilen adete göre anlık güncellenir.
 
 ### 🧾 6. Sepet Görüntüleme
 
-**Kategori:** Sepet  
-
 Ana sayfadaki sepet ikonuna tıklandığında, kullanıcının sepetteki tüm ürünleri listelenir.  
 Bu ekranda ürünlerin adedi, fiyatları ve tüm sepetin toplam tutarı net bir şekilde gösterilir.
 
@@ -64,8 +54,6 @@ Bu ekranda ürünlerin adedi, fiyatları ve tüm sepetin toplam tutarı net bir 
 ---
 
 ### ❌ 7. Sepetten Silme
-
-**Kategori:** Sepet  
 
 Kullanıcı, sepetteki herhangi bir ürünün yanındaki silme butonuna tıklayarak (API'ye gönderimi ile) ürünü sepetinden kalıcı olarak kaldırabilir.  
 Liste ve toplam fiyat anlık olarak güncellenir.
