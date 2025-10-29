@@ -130,7 +130,7 @@ Uygulama, **temiz kod prensiplerini** ve **modülerliği** sağlamak için Katma
 ## 🚀 Kurulum, Teşekkür ve İletişim
 
 **Projeyi Klonlayın:**  
-git clone [GitHub Proje Linkiniz]
+git clone https://github.com/dgknkrkmz/UniShop
 
 
 **🙏 Teşekkür ve 📬 İletişim:**  
@@ -139,6 +139,6 @@ Bu projenin geliştirilme sürecindeki rehberliği, bilgisi ve motivasyonu için
 
 Proje hakkında herhangi bir sorunuz veya geri bildiriminiz varsa aşağıdaki kanallardan benimle iletişime geçebilirsiniz:
 
-**📧 E-posta:** [korkmazdogu09@gmail.com]  
-**🔗 LinkedIn:** [www.linkedin.com/in/-dogukankorkmaz]
+**📧 E-posta:** korkmazdogu09@gmail.com  
+**🔗 LinkedIn:** www.linkedin.com/in/-dogukankorkmaz
 
