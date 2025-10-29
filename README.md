@@ -1,4 +1,5 @@
-# 🛒 UniShop | Android E-Ticaret Uygulaması 
+# 🛒 UniShop | Android E-Ticaret Uygulaması
+**🎓 TechCareer.net | Jetpack Compose Bootcamp**
 
 Bu proje, bir Android Bootcamp'in bitirme projesi olarak **Kotlin** programlama dili ve modern Android geliştirme araçları kullanılarak geliştirilmiş bir **mobil E-Ticaret uygulamasıdır**.  
 Ürün listeleme, detay görüntüleme, arama ve sepet yönetimi gibi E-Ticaret fonksiyonlarını barındırır.
