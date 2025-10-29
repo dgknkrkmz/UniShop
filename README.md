@@ -129,7 +129,7 @@ Uygulama, **temiz kod prensiplerini** ve **modülerliği** sağlamak için Katma
 
 ## 🚀 Kurulum, Teşekkür ve İletişim
 
-**Projeyi Klonlayın:**  
+**Kurulum:**  
 ```bash
 git clone https://github.com/kullanici/UniShop.git
 cd UniShop
