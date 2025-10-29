@@ -117,13 +117,13 @@ Uygulama, **temiz kod prensiplerini** ve **modülerliği** sağlamak için Katma
 ## 📸 Uygulama Ekran Görüntüleri (Özet)
 
 1. **Ana Sayfa (Home Screen)**  
-   <img src="UniShop/assets/ana_sayfa-portrait.png" alt="Adet Seçimi" width="400" height="700"/>
+   <img src="UniShop/assets/ana_sayfa-portrait.png" alt="Adet Seçimi" width="300" height="500"/>
 
 2. **Ürün Detay Sayfası (Detail Screen)**  
-   <img src="UniShop/assets/ürün_detay-portrait.png" alt="Adet Seçimi" width="400" height="700"/>
+   <img src="UniShop/assets/ürün_detay-portrait.png" alt="Adet Seçimi" width="300" height="500"/>
 
 3. **Sepet Sayfası (Cart Screen)**  
-   <img src="UniShop/assets/sepet-portrait.png" alt="Adet Seçimi" width="400" height="700"/>
+   <img src="UniShop/assets/sepet-portrait.png" alt="Adet Seçimi" width="300" height="500"/>
 
 ---
 
