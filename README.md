@@ -1,7 +1,7 @@
 # 🛒 UniShop | Android E-Ticaret Uygulaması (Bootcamp Bitirme Projesi)
 
-Bu proje, bir Android Bootcamp'in bitirme projesi olarak **Kotlin** programlama dili ve modern Android geliştirme araçları kullanılarak geliştirilmiş tam teşekküllü bir **mobil E-Ticaret uygulamasıdır**.  
-Ürün listeleme, detay görüntüleme, arama ve sepet yönetimi gibi temel E-Ticaret fonksiyonlarını barındırır.
+Bu proje, bir Android Bootcamp'in bitirme projesi olarak **Kotlin** programlama dili ve modern Android geliştirme araçları kullanılarak geliştirilmiş bir **mobil E-Ticaret uygulamasıdır**.  
+Ürün listeleme, detay görüntüleme, arama ve sepet yönetimi gibi E-Ticaret fonksiyonlarını barındırır.
 
 ---
 
@@ -67,7 +67,7 @@ Bu ekranda ürünlerin adedi, fiyatları ve tüm sepetin toplam tutarı net bir 
 
 **Kategori:** Sepet  
 
-Kullanıcı, sepetteki herhangi bir ürünün yanındaki silme butonuna tıklayarak (API'ye `sepetId` gönderimi ile) ürünü sepetinden kalıcı olarak kaldırabilir.  
+Kullanıcı, sepetteki herhangi bir ürünün yanındaki silme butonuna tıklayarak (API'ye gönderimi ile) ürünü sepetinden kalıcı olarak kaldırabilir.  
 Liste ve toplam fiyat anlık olarak güncellenir.
 
 <img src="UniShop/assets/sepet_urun_silme-portrait.png" alt="Adet Seçimi" width="400" height="700"/>
@@ -76,7 +76,7 @@ Liste ve toplam fiyat anlık olarak güncellenir.
 
 ## 🛠️ Kullanılan Teknolojiler
 
-Bu proje, modern Android mimarisinin en iyi pratiklerini takip etmek için aşağıdaki kritik bileşenleri kullanır:
+Bu proje, modern Android mimarisinin en modern pratiklerini takip etmek için aşağıdaki bileşenleri kullanır:
 
 - **Programlama Dili:** Kotlin  
 - **Arayüz:** Jetpack Compose (Modern, deklaratif UI)  
@@ -143,13 +143,10 @@ Gradle senkronizasyonunun tamamlanmasını bekleyin ve uygulamayı bir emülatö
 
 **🙏 Teşekkür ve 📬 İletişim:**  
 
-Bu projenin geliştirilme sürecindeki rehberliği, engin bilgisi ve motivasyonu için değerli  
-**𝐻𝑜𝑐𝑎𝑛ı𝑧ı𝑛 𝐴𝑑ı 𝐵𝑢𝑟𝑎𝑦𝑎**  
-HocanızınAdıBuraya’na en içten teşekkürlerimi sunarım.  
-Onun desteği olmadan bu projeyi başarıyla tamamlamak mümkün olmazdı.
+Bu projenin geliştirilme sürecindeki rehberliği, bilgisi ve motivasyonu için değerli Kasım Adalan hocama teşekkürlerimi sunarım.  
 
-Proje hakkında herhangi bir sorunuz, geri bildiriminiz veya işbirliği teklifiniz varsa, aşağıdaki kanallardan benimle iletişime geçebilirsiniz:
+Proje hakkında herhangi bir sorunuz veya geri bildiriminiz varsa aşağıdaki kanallardan benimle iletişime geçebilirsiniz:
 
-**📧 E-posta:** [E-posta Adresiniz]  
-**🔗 LinkedIn / GitHub:** [Sosyal Medya / LinkedIn / GitHub Profil Linkiniz]
+**📧 E-posta:** [korkmazdogu09@gmail.com]  
+**🔗 LinkedIn:** [www.linkedin.com/in/-dogukankorkmaz]
 
