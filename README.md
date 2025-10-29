@@ -16,10 +16,7 @@ Bu proje, bir Android Bootcamp'in bitirme projesi olarak **Kotlin** programlama 
 Ana sayfada tüm ürünler, kategorisine bakılmaksızın listelenir.  
 Kullanıcılar ürün kartlarına tıklayarak detay sayfasına geçebilir.
 
-<img src="UniShop/assets/adet_seçimi-portrait.png" alt="Adet Seçimi" width="400" height="700"/>
-
-
-
+<img src="UniShop/assets/ana_sayfa-portrait" alt="Adet Seçimi" width="400" height="700"/>
 
 ---
 
@@ -29,7 +26,7 @@ Kullanıcılar ürün kartlarına tıklayarak detay sayfasına geçebilir.
 
 Kullanıcı arama kutusuna yazı yazmaya başladığı anda, **marka** veya **ürün adına** göre filtreleme anlık olarak yapılır ve sonuçlar kullanıcıya dinamik olarak sunulur.
 
-*(Görsel buraya eklenecek)*
+<img src="UniShop/assets/adet_seçimi-portrait.png" alt="Adet Seçimi" width="400" height="700"/>
 
 ---
 
@@ -40,7 +37,7 @@ Kullanıcı arama kutusuna yazı yazmaya başladığı anda, **marka** veya **ü
 Seçilen ürünün resmi, tam fiyatı, markası ve kategorisi büyük bir ekranda gösterilir.  
 Bu ekran, **sepete ekleme işlemi** için bir merkez görevi görür.
 
-*(Görsel buraya eklenecek)*
+<img src="UniShop/assets/adet_seçimi-portrait.png" alt="Adet Seçimi" width="400" height="700"/>
 
 ---
 
@@ -51,7 +48,7 @@ Bu ekran, **sepete ekleme işlemi** için bir merkez görevi görür.
 Ürün detay sayfasında, kullanıcı sepete eklemeden önce istediği sipariş adedini pratik bir şekilde artırıp azaltabilir.  
 Toplam fiyat, seçilen adete göre anlık güncellenir.
 
-*(Görsel buraya eklenecek)*
+<img src="UniShop/assets/adet_seçimi-portrait.png" alt="Adet Seçimi" width="400" height="700"/>
 
 ---
 
@@ -62,7 +59,7 @@ Toplam fiyat, seçilen adete göre anlık güncellenir.
 Kullanıcı, istediği adeti seçtikten sonra **"Sepete Ekle"** butonuna basarak ürünü **API'ye POST işlemi** ile sepete kaydeder.  
 İşlem başarılı olduktan sonra genellikle ana sayfaya geri dönülür.
 
-*(Görsel buraya eklenecek)*
+<img src="UniShop/assets/adet_seçimi-portrait.png" alt="Adet Seçimi" width="400" height="700"/>
 
 ---
 
@@ -73,7 +70,7 @@ Kullanıcı, istediği adeti seçtikten sonra **"Sepete Ekle"** butonuna basarak
 Ana sayfadaki sepet ikonuna tıklandığında, kullanıcının sepetteki tüm ürünleri listelenir.  
 Bu ekranda ürünlerin adedi, fiyatları ve tüm sepetin toplam tutarı net bir şekilde gösterilir.
 
-*(Görsel buraya eklenecek)*
+<img src="UniShop/assets/adet_seçimi-portrait.png" alt="Adet Seçimi" width="400" height="700"/>
 
 ---
 
@@ -84,7 +81,7 @@ Bu ekranda ürünlerin adedi, fiyatları ve tüm sepetin toplam tutarı net bir 
 Kullanıcı, sepetteki herhangi bir ürünün yanındaki silme butonuna tıklayarak (API'ye `sepetId` gönderimi ile) ürünü sepetinden kalıcı olarak kaldırabilir.  
 Liste ve toplam fiyat anlık olarak güncellenir.
 
-*(Görsel buraya eklenecek)*
+<img src="UniShop/assets/adet_seçimi-portrait.png" alt="Adet Seçimi" width="400" height="700"/>
 
 ---
 
@@ -131,13 +128,13 @@ Uygulama, **temiz kod prensiplerini** ve **modülerliği** sağlamak için Katma
 ## 📸 Uygulama Ekran Görüntüleri (Özet)
 
 1. **Ana Sayfa (Home Screen)**  
-   *(Görsel buraya eklenecek)*
+   <img src="UniShop/assets/adet_seçimi-portrait.png" alt="Adet Seçimi" width="400" height="700"/>
 
 2. **Ürün Detay Sayfası (Detail Screen)**  
-   *(Görsel buraya eklenecek)*
+   <img src="UniShop/assets/adet_seçimi-portrait.png" alt="Adet Seçimi" width="400" height="700"/>
 
 3. **Sepet Sayfası (Cart Screen)**  
-   *(Görsel buraya eklenecek)*
+   <img src="UniShop/assets/adet_seçimi-portrait.png" alt="Adet Seçimi" width="400" height="700"/>
 
 ---
 
