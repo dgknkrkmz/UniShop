@@ -1,4 +1,4 @@
-# 🛒 UniShop | Android E-Ticaret Uygulaması (Bootcamp Bitirme Projesi)
+# 🛒 UniShop | Android E-Ticaret Uygulaması 
 
 Bu proje, bir Android Bootcamp'in bitirme projesi olarak **Kotlin** programlama dili ve modern Android geliştirme araçları kullanılarak geliştirilmiş bir **mobil E-Ticaret uygulamasıdır**.  
 Ürün listeleme, detay görüntüleme, arama ve sepet yönetimi gibi E-Ticaret fonksiyonlarını barındırır.
